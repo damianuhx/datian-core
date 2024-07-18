@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect(DB_HOST, DB_BENUTZER, DB_PASSWORT, DB_NAME);
+$db = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 function sql_escape($string){
     global $db;
